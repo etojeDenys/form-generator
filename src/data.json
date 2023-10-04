@@ -1,0 +1,28 @@
+[
+  {
+    "default_value": "Default Text",
+    "value": "Sample Text",
+    "validation": "^\\d{5}$",
+    "type": "text"
+  },
+  {
+    "value": "Option 2",
+    "options": ["Option 1", "Option 2", "Option 3"],
+    "type": "dropdown"
+  },
+  {
+    "default_value": 2,
+    "options": [1, 2, 3, 4, 5],
+    "type": "dropdown"
+  },
+  {
+    "value": 42,
+    "min_value": 10,
+    "max_value": 100,
+    "type": "number"
+  },
+  {
+    "value": "long text",
+    "type": "longtext"
+  }
+]
